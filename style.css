@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: sans-serif;
+}
+body{
+    background-color: #aaa;
+}
+.title{
+    text-align: center;
+    padding: 10px;
+}
+.words{
+    text-align: center;
+}
+.word{
+    text-decoration: underline;
+    padding: 10px;
+    font-weight: bold;
+}
+.game-display{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #333;
+    width: 60%;
+    height: 80vh;
+    margin: 10px auto;
+}
+.letter{
+    border: 1px solid red;
+    width: 10%;
+    height: 10vh;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    line-height: 10vh;
+    cursor: pointer;
+}
